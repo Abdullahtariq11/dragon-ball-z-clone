@@ -1,0 +1,189 @@
+*{
+    margin: auto 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* includes all elements of header*/
+.top-header{
+    width: 100%;
+    display: flex;
+}
+/*logo style*/
+.logo{
+    margin-right: auto;
+    align-items: left;
+    padding: 10px;
+    margin-top: 0.8rem;
+}
+.logo img{
+    height: 30px ;
+    width: auto;
+}
+/* nav bar*/
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 0.8rem;
+}
+
+.main-nav-links{
+    list-style: none;
+    display: flex;
+    
+}
+
+.main-nav-links li{
+    padding: 10px ;
+    cursor: pointer;
+
+}
+
+.main-nav-links li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #520875;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: 900;
+    
+}
+.main-nav-links a:hover{
+    color: #cc240e;
+}
+
+
+/* buttons*/
+.buttons{
+    margin-left: auto;
+    padding: 20px;
+    margin-top: 0.8rem;
+
+}
+
+.main-buttons{
+    display: flex;
+    list-style: none;
+
+}
+.main-buttons li{
+    padding-right: 10px;
+}
+
+/*sencond nav bar*/
+.second-nav-links{
+    margin: 0;
+    padding: 20;
+    display: flex;
+    list-style: none;
+    background-color: #520875;
+    text-align: center;
+    justify-content: center;
+}
+
+.second-nav-links li{
+    padding: 8px;
+}
+.second-nav-links a{
+    text-decoration: none;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.4s;
+}
+.second-nav-links a:hover{
+    color: #805096;
+}
+
+/*cover */
+.cover{
+    background-color: #520875;
+}
+.cover-img{
+    height: auto;
+    width: 100%;
+    transition: 0.4s;
+}
+ .cover a img:hover{
+    transform: scale(1.01);
+    
+}
+
+.container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #520875;
+}
+.first-half{
+  width: 50%;
+  padding: 10px 50px 10px 50px;
+}
+.first-half img{
+  width: 100%;
+  height: auto;
+  
+}
+.first-half a img:hover{
+    opacity: 50%;
+}
+
+.second-half{
+    margin: 0;
+    padding: 30px 10px 30px 10px;
+}
+.second-half h3,h1{
+    color: white;
+    text-transform:uppercase ;
+}
+.second-half h1{
+    font-size: 52px;
+}
+.without-list{
+    color: #db9914;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+.list-container{
+    padding: 15px 30px 10px 30px;
+}
+.second-half li {
+    list-style: none;
+    color: #db9914;
+    list-style-image: url(http://www.dragonballz.com/images/db.png);
+    margin: 0px;
+    vertical-align: middle;
+    padding: 7px 0px 7px 0px;
+}
+.second-half button{
+   font-size: 20px;
+   background-color: #cc240e;
+   border: none;
+   color: white;
+   padding: 5px;
+   cursor: pointer;
+}
+.second-half button:hover{
+    background-color: white;
+    color: #cc240e;
+}
+.footer-section{
+   background-color: #114b59;
+   display: block;
+   text-align: center;
+}
+.footer-section img{
+    
+    width: auto;
+    height: auto;
+   
+   
+}
+
+
+
